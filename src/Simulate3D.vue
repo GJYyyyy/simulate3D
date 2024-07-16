@@ -86,10 +86,8 @@ export default {
 };
 </script>
 
-<style scoped lang="scss">
-.simulate-3-d {
-    >.visual-effect {
-        transform: perspective(800px) rotateX(var(--rotateX)) rotateY(var(--rotateY)) scale(var(--scale)) translate(var(--translateX), var(--translateY));
-    }
+<style scoped>
+.simulate-3-d>.visual-effect {
+    transform: perspective(800px) rotateX(var(--rotateX)) rotateY(var(--rotateY)) scale(var(--scale)) translate(var(--translateX), var(--translateY));
 }
 </style>
